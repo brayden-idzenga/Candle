@@ -10,10 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="619b792a-2748-4b8e-b7e2-84e80e51a65f" name="Changes" comment="Add Window Class">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Engine/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Engine/Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653030633182</updated>
       <workItem from="1653030637654" duration="3783000" />
-      <workItem from="1653103027673" duration="159000" />
+      <workItem from="1653103027673" duration="360000" />
     </task>
     <task id="LOCAL-00001" summary="Add Window Class">
       <created>1653033384105</created>
