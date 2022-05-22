@@ -13,7 +13,6 @@ public class Window {
     int width, height;
     String title;
 
-    private static Window window = null;
     private long glfwWindow;
 
     public Window(int width, int height, String title) {
@@ -23,7 +22,6 @@ public class Window {
     }
 
     public void run() {
-        System.out.println("Hello LWJGL " + Version.getVersion());
         init();
         loop();
 
@@ -56,6 +54,11 @@ public class Window {
         if (glfwWindow == NULL) {
             throw new IllegalStateException("Failed to create GLFW Window");
         }
+
+        glfwSetCursorPosCallback(glfwWindow, MouseListener::mousePosCallback);
+        glfwSetMouseButtonCallback(glfwWindow, MouseListener::mouseButtonCallback);
+        glfwSetScrollCallback(glfwWindow, MouseListener::mouseScrollCallback);
+
         glfwMakeContextCurrent(glfwWindow);
         glfwSwapInterval(1);
         glfwShowWindow(glfwWindow);
